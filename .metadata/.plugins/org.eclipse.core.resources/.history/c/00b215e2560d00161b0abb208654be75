@@ -1,0 +1,11 @@
+
+public class Quadrado extends Retangulo{
+	
+	public Quadrado(double lado){
+		super(lado, lado);
+	}
+	public double Area(double lado){
+		area = lado*lado;
+		return area;
+	}
+}
